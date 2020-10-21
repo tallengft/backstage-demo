@@ -8,6 +8,8 @@ metadata:
   annotations:
     example.com/service-discovery: artistweb
     circleci.com/project-slug: github/example-org/artist-website
+  lighthouse:
+    baseUrl: https://backstage.mydomain.com/lighthouse-api
   tags:
     - java
     - public
