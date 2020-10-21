@@ -14,4 +14,4 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: artist-relations@example.com
+  owner: tallen
