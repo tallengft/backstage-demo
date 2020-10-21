@@ -1,13 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: artist-web
-  description: The place to be, for great artists
+  name: example-service
+  description: A great example Service
   labels:
-    system: public-websites
+    system: service
   annotations:
     example.com/service-discovery: artistweb
     circleci.com/project-slug: github/example-org/artist-website
+    backstage.io/techdocs-ref: documented-component
   lighthouse:
     baseUrl: https://backstage.mydomain.com/lighthouse-api
   tags:
